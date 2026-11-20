@@ -35,6 +35,8 @@ class Dolphin:
 
         
 
-def main():
-    dolphin = Dolphin()
-    controls = dolphin.getControls()
+
+d = Dolphin()
+
+controls = d.getControls()
+print(controls, controller.get_gc_buttons(0))
